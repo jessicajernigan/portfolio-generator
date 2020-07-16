@@ -10,9 +10,7 @@ const printProfileData = profileDataArr => { // If only one parameter, you can a
   for (let i = 0; i < profileDataArr.length; i += 1) {
     console.log(profileDataArr[i]);
   }
-
   console.log("================");
-
   profileDataArr.forEach(profileItem => console.log(profileItem));
 };
 
